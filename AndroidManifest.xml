@@ -18,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider android:name=".FeedsProvider"
+         android:authorities="org.hackspace.Feeds" /> 
         <service android:name=".TwitterService"></service>
     </application>
 
