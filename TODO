@@ -1,0 +1,3 @@
+ - Create a content provider for entries
+ - Create a mechanism to call refresh for all services
+ - Fix project lib to work with ant (command line)
